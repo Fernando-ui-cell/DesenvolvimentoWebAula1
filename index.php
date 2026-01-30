@@ -6,15 +6,15 @@
     <title>Page1</title>
 </head>
 <body>
-    <header>
-    <ul class="navegação">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="produtos_page.html">Produtos</a></li>
-            <li><a href="login_page.html">Login</a></li>
-            <li><a href="cadastro_page.html">Cadastro</a></li>
-            <li><a href="cadastro_vendedor.html">Seja um vendedor</a></li>
-            <li><a href="cadastra_produto.html">Cadastro de produto</a></li>
-        </ul>
-    </header>
+   <DIV>
+    <?php
+
+        $mensagemBoasVindas="Seja bem-vindo ao meu site!!";
+        $nome = "Fernando";
+
+        echo "<h1>  $mensagemBoasVindas <br> Meu nome é $nome </h1>"
+
+    ?>
+   </DIV>
 </body>
 </html>
